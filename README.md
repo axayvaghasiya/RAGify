@@ -1,6 +1,6 @@
 # RAGify AI — Advanced RAG Assistant for E-Commerce
 
-> **Production-grade Retrieval-Augmented Generation system** built over a real German fashion merchant's data (Makani Germany). Combines hybrid search, cross-encoder reranking, and Claude claude-sonnet-4-6 to answer customer questions in German and English.
+> **Production-grade Retrieval-Augmented Generation system** built over a real German fashion merchant's data (Makani Germany - Shopify store). Combines hybrid search, cross-encoder reranking, and Claude claude-sonnet-4-6 to answer customer questions in German and English.
 
 [![Python](https://img.shields.io/badge/Python-3.14-blue)](https://python.org)
 [![Claude](https://img.shields.io/badge/LLM-Claude%20Sonnet%204-orange)](https://anthropic.com)
