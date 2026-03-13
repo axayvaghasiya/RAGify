@@ -34,7 +34,7 @@ Ask questions like:
 --- -->
 
 ## Demo Video:
-**[Loom](https://www.loom.com/share/96d9f497f55941ddacec2d4d6de873f0)
+**[Loom](https://www.loom.com/share/96d9f497f55941ddacec2d4d6de873f0)**
 
 ## RAGAS Evaluation Results
 
