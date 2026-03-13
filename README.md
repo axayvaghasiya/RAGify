@@ -1,6 +1,9 @@
 # RAGify AI — Advanced RAG Assistant for E-Commerce
 
-> **Production-grade Retrieval-Augmented Generation system** built over a real German fashion merchant's data (Makani Germany - Shopify store). Combines hybrid search, cross-encoder reranking, and Claude claude-sonnet-4-6 to answer customer questions in German and English.
+🎥 **Demo Video:** https://www.loom.com/share/96d9f497f55941ddacec2d4d6de873f0
+
+> Production-grade **Retrieval-Augmented Generation (RAG)** system built over a real German Shopify merchant dataset (Makani Germany).  
+> The system combines hybrid retrieval, cross-encoder reranking, and LLM reasoning to answer customer questions in **German and English**.
 
 [![Python](https://img.shields.io/badge/Python-3.14-blue)](https://python.org)
 [![Claude](https://img.shields.io/badge/LLM-Claude%20Sonnet%204-orange)](https://anthropic.com)
@@ -8,6 +11,16 @@
 [![RAGAS](https://img.shields.io/badge/Eval-RAGAS-purple)](https://github.com/explodinggradients/ragas)
 
 ---
+
+## Key Features
+
+• **Hybrid retrieval:** FAISS + BM25 + Reciprocal Rank Fusion  
+• **Cross-encoder reranking:** `ms-marco-MiniLM-L-6-v2`  
+• **Query routing:** source-aware retrieval (product / shipping / returns)  
+• **Streaming responses:** SSE streaming via FastAPI  
+• **Multilingual retrieval:** German ↔ English cross-lingual search  
+• **Evaluation pipeline:** RAGAS metrics (Faithfulness, Relevancy, Precision)  
+• **Citation-based answers:** grounded responses with source attribution
 
 <!-- ## Live Demo
 
@@ -19,6 +32,9 @@ Ask questions like:
 - *"Wie lange dauert der Versand nach Österreich?"*
 
 --- -->
+
+## Demo Video:
+**[Loom](https://www.loom.com/share/96d9f497f55941ddacec2d4d6de873f0)
 
 ## RAGAS Evaluation Results
 
