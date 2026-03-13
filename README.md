@@ -20,7 +20,7 @@
 • **Streaming responses:** SSE streaming via FastAPI  
 • **Multilingual retrieval:** German ↔ English cross-lingual search  
 • **Evaluation pipeline:** RAGAS metrics (Faithfulness, Relevancy, Precision)  
-• **Citation-based answers:** grounded responses with source attribution
+• **Source attribution:** showing the document used to generate answers
 
 <!-- ## Live Demo
 
