@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-🚀 **[Try RAGify AI](https://your-streamlit-url.streamlit.app)** ← *(deploy link goes here)*
+🚀 **[Try RAGify AI](https://project-ragify.streamlit.app)** ← *(deploy link goes here)*
 
 Ask questions like:
 - *"Welche schwarzen Handtaschen habt ihr unter 120 Euro?"*
@@ -54,8 +54,8 @@ Evaluated on 20 golden Q&A pairs (10 German + 10 English) using the RAGAS framew
 │ FAISS  │      │  BM25    │   Stage 1: Parallel Search
 │ Dense  │      │ Sparse   │   FAISS = semantic similarity
 │ Search │      │ Search   │   BM25  = exact keyword match
-└────┬───┘      └────┬─────┘
-     │               │
+└────┬───┘      └─────┬────┘
+     │                │
      └──────┬─────────┘
             ▼
     ┌───────────────┐
