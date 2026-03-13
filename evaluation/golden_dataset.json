@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Welche schwarzen Handtaschen habt ihr unter 150 Euro?",
+    "ground_truth": "Makani bietet mehrere schwarze Handtaschen unter 150 Euro an, darunter HALIA - BLACK für 99,90 EUR, OLINA - BLACK für 119,90 EUR und weitere Modelle wie NALUA - BLACK und ANA - BLACK für 149,90 EUR.",
+    "language": "de",
+    "category": "product"
+  },
+  {
+    "question": "Wie lange dauert die Lieferung nach Deutschland?",
+    "ground_truth": "Die Lieferung innerhalb Deutschlands dauert in der Regel 2-3 Werktage. Bestellungen werden innerhalb von 24 Stunden verschickt, sofern die Ware auf Lager ist.",
+    "language": "de",
+    "category": "shipping"
+  },
+  {
+    "question": "Was sind die Versandkosten nach Österreich?",
+    "ground_truth": "Der Versand nach Österreich kostet 9,90 EUR und ist kostenlos ab einem Bestellwert von 49,90 EUR.",
+    "language": "de",
+    "category": "shipping"
+  },
+  {
+    "question": "Wie lange habe ich Zeit, einen Artikel zurückzugeben?",
+    "ground_truth": "Sie haben das Recht, binnen 14 Tagen den Vertrag zu widerrufen. Die Widerrufsfrist beginnt ab dem Tag, an dem Sie die Ware in Besitz genommen haben.",
+    "language": "de",
+    "category": "returns"
+  },
+  {
+    "question": "Wer trägt die Rücksendekosten?",
+    "ground_truth": "Die Rücksendekosten trägt der Kunde bei Ausübung des Widerrufsrechts.",
+    "language": "de",
+    "category": "returns"
+  },
+  {
+    "question": "Welche Zahlungsmethoden akzeptiert ihr?",
+    "ground_truth": "Makani bietet verschiedene Zahlungsarten an, darunter Kreditkarte, PayPal und weitere Optionen. Die genauen Zahlungsarten sind von der Versandart abhängig.",
+    "language": "de",
+    "category": "payment"
+  },
+  {
+    "question": "Versendet ihr in die Schweiz?",
+    "ground_truth": "Ja, Makani versendet in die Schweiz. Die Versandkosten betragen 14,90 EUR. Es fallen keine zusätzlichen Zollkosten an dank ihrer Partner in der Schweiz.",
+    "language": "de",
+    "category": "shipping"
+  },
+  {
+    "question": "Was passiert wenn mein Paket nicht zugestellt werden kann?",
+    "ground_truth": "Sollte die Ware durch fehlende oder falsche Adressangaben oder durch Nicht-Abholung zurückgeschickt werden, wird eine Aufwandspauschale erhoben: Deutschland 10€, Österreich 15€, Schweiz 20€.",
+    "language": "de",
+    "category": "shipping"
+  },
+  {
+    "question": "Habt ihr Geldbeutel im Sortiment?",
+    "ground_truth": "Ja, Makani bietet Geldbeutel und Geldklammern an, zum Beispiel den MC KAIA - TAUPE für 69,90 EUR.",
+    "language": "de",
+    "category": "product"
+  },
+  {
+    "question": "Wer ist die verantwortliche Stelle für den Datenschutz?",
+    "ground_truth": "Die verantwortliche Stelle für die Datenverarbeitung ist die Makani GmbH, vertreten durch Serkan Dagdelen, Obstmarschenweg 258, 21683 Stade.",
+    "language": "de",
+    "category": "privacy"
+  },
+  {
+    "question": "What is the return window at Makani Germany?",
+    "ground_truth": "You have 14 days to withdraw from the contract. The withdrawal period begins from the day you received the goods.",
+    "language": "en",
+    "category": "returns"
+  },
+  {
+    "question": "Do you ship to Switzerland?",
+    "ground_truth": "Yes, Makani ships to Switzerland. Shipping costs are 14.90 EUR. No additional customs costs apply thanks to their partners in Switzerland.",
+    "language": "en",
+    "category": "shipping"
+  },
+  {
+    "question": "What black handbags do you have available?",
+    "ground_truth": "Makani offers several black handbags including HALIA - BLACK at 99.90 EUR, OLINA - BLACK at 119.90 EUR, NALUA - BLACK, ANA - BLACK, and NANI - BLACK at 149.90 EUR among others.",
+    "language": "en",
+    "category": "product"
+  },
+  {
+    "question": "How long does delivery take to Germany?",
+    "ground_truth": "Delivery within Germany takes 2-3 business days. Orders are shipped within 24 hours if the item is in stock.",
+    "language": "en",
+    "category": "shipping"
+  },
+  {
+    "question": "Who pays for return shipping?",
+    "ground_truth": "The customer bears the return shipping costs when exercising the right of withdrawal.",
+    "language": "en",
+    "category": "returns"
+  },
+  {
+    "question": "Is shipping free to Germany?",
+    "ground_truth": "Yes, shipping within Germany is free of charge with no minimum order value.",
+    "language": "en",
+    "category": "shipping"
+  },
+  {
+    "question": "What happens if my package cannot be delivered?",
+    "ground_truth": "If the package is returned due to incorrect address or non-collection, a handling fee is charged: Germany 10€, Austria 15€, Switzerland 20€.",
+    "language": "en",
+    "category": "shipping"
+  },
+  {
+    "question": "Do you offer wallets?",
+    "ground_truth": "Yes, Makani offers wallets and money clips, for example the MC KAIA - TAUPE for 69.90 EUR.",
+    "language": "en",
+    "category": "product"
+  },
+  {
+    "question": "What is the shipping cost to Austria?",
+    "ground_truth": "Shipping to Austria costs 9.90 EUR and is free for orders over 49.90 EUR.",
+    "language": "en",
+    "category": "shipping"
+  },
+  {
+    "question": "How will I be refunded after a return?",
+    "ground_truth": "Makani will refund all payments within 14 days of receiving your withdrawal notice, using the same payment method you used for the original transaction. No fees are charged for the refund.",
+    "language": "en",
+    "category": "returns"
+  }
+]

@@ -1,0 +1,36 @@
+# Core
+langchain==0.3.14
+langchain-openai==0.3.1
+langchain-community==0.3.14
+openai==1.59.6
+anthropic==0.84.0
+
+# Document loading & scraping
+beautifulsoup4==4.12.3
+requests==2.32.3
+python-dotenv==1.0.1
+
+# Vector store
+faiss-cpu==1.13.2
+sentence-transformers==3.3.1
+
+# Sparse retrieval
+rank-bm25==0.2.2
+
+# Reranking
+torch==2.9.0
+
+# API
+fastapi==0.115.6
+uvicorn==0.34.0
+
+# Frontend
+streamlit==1.41.1
+
+# Evaluation
+ragas==0.2.6
+datasets==3.2.0
+
+# Data
+pandas==2.2.3
+numpy==1.26.4

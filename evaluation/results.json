@@ -1,0 +1,348 @@
+{
+  "timestamp": "2026-03-13T17:12:47.245481",
+  "total_questions": 20,
+  "aggregate_scores": {
+    "faithfulness": 0.8833,
+    "answer_relevancy": 0.7604,
+    "context_precision": 0.6767
+  },
+  "per_question": [
+    {
+      "question": "Welche schwarzen Handtaschen habt ihr unter 150 Euro?",
+      "answer": "## Schwarze Handtaschen unter 150 €\n\nWir haben aktuell **3 schwarze Handtaschen** unter 150 Euro für dich:\n\n| Produkt | Preis |\n|---|---|\n| 🖤 **LEILANI - BLACK** | 149,90 € |\n| 🖤 **MC LEILANI - BLACK** | 149,90 € |\n| 🖤 **HALIA - BLACK** | 99,90 € |\n\nDie **HALIA - BLACK** ist mit 99,90 € unser günstigstes Modell in Schwarz. Die LEILANI-Modelle sind klassische Umhängetaschen, während die HALIA als Long Bag etwas anders geschnitten ist.\n\nKann ich dir bei der Auswahl noch weiterhelfen? 😊\n\n[Quelle: Produkt]",
+      "contexts": [
+        "Produkt: MC LEILANI - BLACK\nMarke: Makani\nKategorie: Handtaschen\nTags: Black, Black Bag, custom upsell, Handtasche, Schwarz, shoptok, Umhängetasche\nPreis: 149.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: LEILANI - BLACK\nMarke: Makani\nKategorie: Handtaschen\nTags: Black, Black Bag, custom upsell, Handtasche, Schwarz, shoptok, Umhängetasche\nPreis: 149.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: MC PUALANI - CLASSIC BLACK\nMarke: Makani\nKategorie: Handtaschen\nTags: Black, Black Bag, custom upsell, Handtasche, Pualani, Schwarz, shoptok, Umhängetasche\nPreis: 169.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: HALIA - BLACK\nMarke: Makani\nKategorie: Handtaschen\nTags: Black, Halia Black, Handtasche, Long Bag, Schwarz\nPreis: 99.9 EUR\nBeschreibung: nan",
+        "Produkt: PUALANI - CLASSIC BLACK\nMarke: Makani\nKategorie: Handtaschen\nTags: Black, Black Bag, custom upsell, Handtasche, Pualani, Schwarz, shoptok, Umhängetasche\nPreis: 169.9 EUR\nBeschreibung: Makani Germany"
+      ],
+      "ground_truth": "Makani bietet mehrere schwarze Handtaschen unter 150 Euro an, darunter HALIA - BLACK für 99,90 EUR, OLINA - BLACK für 119,90 EUR und weitere Modelle wie NALUA - BLACK und ANA - BLACK für 149,90 EUR.",
+      "language": "de",
+      "category": "product",
+      "latency_ms": 6163,
+      "sources": [
+        "product_catalog"
+      ]
+    },
+    {
+      "question": "Wie lange dauert die Lieferung nach Deutschland?",
+      "answer": "Die Lieferung nach Deutschland dauert **2–3 Werktage**. Wir versenden Pakete in der Regel innerhalb von 24 Stunden über DHL, versichert und versandkostenfrei. 📦\n\n[Quelle: Versandrichtlinie]",
+      "contexts": [
+        "Wir bieten Ihnen folgende Zahlungsarten an. Suchen Sie sich einfach die für Sie optimale Zahlart aus. Die Versandkosten sind teilweise abhängig von der gewählten Zahlungsart. Die in den jeweiligen Angeboten angeführten Preise stellen Endpreise dar. Sie beinhalten alle Preisbestandteile einschließlich etwaig anfallender Steuern wie Mehrwertsteuer. Nur bei grenzüberschreitender Lieferung können im Einzelfall weitere Steuern (z.B. im Falle eines innergemeinschaftlichen Erwerbs) und/oder Abgaben (z.B. Zölle) von Ihnen zu zahlen sein, jedoch nicht an den Verkäufer, sondern an die dort zuständigen Zoll- bzw. Steuerbehörden",
+        "Nicht zustellbare Sendungen\n\nSollte die Ware durch fehlende/falsche Adressangaben des Kunden oder aber durch nicht Abholung des Paketes an die Makani GmbH zurückgeschickt, so wird eine Aufwandspauschale vom Käufer getragen. Diese beträgt für Deutschland 10€, Österreich 15€ und für die Schweiz 20€. Selbiges gilt für Sendungen deren Annahme verweigert wurde.\n\nZölle, Steuern & Einfuhrabgaben\n\nBei Lieferungen in Länder außerhalb der EU können zusätzliche Zölle, Steuern und Gebühren anfallen. Diese sind vom Kunden zu tragen und nicht im Kaufpreis enthalten. Der Verkäufer hat keinen Einfluss auf diese Gebühren.\n\nZahlungsarten",
+        "Versand & Zahlungsbedingungen\n\nWir verschicken unsere Pakete immer versichert über unseren Versanddienstleister DHL. \n\nAlle Details zum Versand findest Du hier\n\nVersandkosten\n\nDeutschland: Versandkostenfrei\nÖsterreich: 9,90€ | Versandkostenfrei ab 49,90€\nSchweiz: 14,90€ \nEU: 14,90€ \n\nLieferzeiten\n\nWir versenden innerhalb von 24 Stunden.\nDie Lieferung innerhalb Deutschland erfolgt nach 2 – 3 Werktagen.\nBestellungen aus Österreich benötigen bis zu 3- 4 Werktage.\nLieferungen in andere EU Länder benötigen bis zu 5 Werktage.\nLieferungen in die Schweiz benötigen bis zu 4 - 5 Werktage.\n\nDu kannst Deine Bestellung innerhalb von 14 Tagen laut unseren (Widerrufsrecht) widerrufen ausgenommen Schweizer Kunden.\n\nNicht zustellbare Sendungen"
+      ],
+      "ground_truth": "Die Lieferung innerhalb Deutschlands dauert in der Regel 2-3 Werktage. Bestellungen werden innerhalb von 24 Stunden verschickt, sofern die Ware auf Lager ist.",
+      "language": "de",
+      "category": "shipping",
+      "latency_ms": 3060,
+      "sources": [
+        "shipping_policy"
+      ]
+    },
+    {
+      "question": "Was sind die Versandkosten nach Österreich?",
+      "answer": "## Versandkosten nach Österreich\n\nDer Versand nach Österreich kostet **9,90 €**. Ab einem Bestellwert von **49,90 €** ist der Versand kostenlos! 📦\n\nDie Lieferzeit beträgt **3–4 Werktage**.\n\n[Quelle: Versandrichtlinie]",
+      "contexts": [
+        ". Steuerbehörden. Die anfallenden Liefer- und Versandkosten sind nicht im Kaufpreis enthalten, sie sind über die Seite „Versandkosten“ aufrufbar, werden im Laufe des Bestellvorganges gesondert ausgewiesen und sind von Ihnen zusätzlich zu tragen.",
+        "Wir bieten Ihnen folgende Zahlungsarten an. Suchen Sie sich einfach die für Sie optimale Zahlart aus. Die Versandkosten sind teilweise abhängig von der gewählten Zahlungsart. Die in den jeweiligen Angeboten angeführten Preise stellen Endpreise dar. Sie beinhalten alle Preisbestandteile einschließlich etwaig anfallender Steuern wie Mehrwertsteuer. Nur bei grenzüberschreitender Lieferung können im Einzelfall weitere Steuern (z.B. im Falle eines innergemeinschaftlichen Erwerbs) und/oder Abgaben (z.B. Zölle) von Ihnen zu zahlen sein, jedoch nicht an den Verkäufer, sondern an die dort zuständigen Zoll- bzw. Steuerbehörden",
+        "Versand & Zahlungsbedingungen\n\nWir verschicken unsere Pakete immer versichert über unseren Versanddienstleister DHL. \n\nAlle Details zum Versand findest Du hier\n\nVersandkosten\n\nDeutschland: Versandkostenfrei\nÖsterreich: 9,90€ | Versandkostenfrei ab 49,90€\nSchweiz: 14,90€ \nEU: 14,90€ \n\nLieferzeiten\n\nWir versenden innerhalb von 24 Stunden.\nDie Lieferung innerhalb Deutschland erfolgt nach 2 – 3 Werktagen.\nBestellungen aus Österreich benötigen bis zu 3- 4 Werktage.\nLieferungen in andere EU Länder benötigen bis zu 5 Werktage.\nLieferungen in die Schweiz benötigen bis zu 4 - 5 Werktage.\n\nDu kannst Deine Bestellung innerhalb von 14 Tagen laut unseren (Widerrufsrecht) widerrufen ausgenommen Schweizer Kunden.\n\nNicht zustellbare Sendungen",
+        "Nicht zustellbare Sendungen\n\nSollte die Ware durch fehlende/falsche Adressangaben des Kunden oder aber durch nicht Abholung des Paketes an die Makani GmbH zurückgeschickt, so wird eine Aufwandspauschale vom Käufer getragen. Diese beträgt für Deutschland 10€, Österreich 15€ und für die Schweiz 20€. Selbiges gilt für Sendungen deren Annahme verweigert wurde.\n\nZölle, Steuern & Einfuhrabgaben\n\nBei Lieferungen in Länder außerhalb der EU können zusätzliche Zölle, Steuern und Gebühren anfallen. Diese sind vom Kunden zu tragen und nicht im Kaufpreis enthalten. Der Verkäufer hat keinen Einfluss auf diese Gebühren.\n\nZahlungsarten"
+      ],
+      "ground_truth": "Der Versand nach Österreich kostet 9,90 EUR und ist kostenlos ab einem Bestellwert von 49,90 EUR.",
+      "language": "de",
+      "category": "shipping",
+      "latency_ms": 3629,
+      "sources": [
+        "shipping_policy"
+      ]
+    },
+    {
+      "question": "Wie lange habe ich Zeit, einen Artikel zurückzugeben?",
+      "answer": "## Rückgabefrist bei Makani Germany\n\nDu hast **14 Tage** Zeit, um einen Artikel zurückzugeben. Die Frist beginnt an dem Tag, an dem du (oder eine von dir benannte Person) die Ware in Besitz genommen hast.\n\nUm die Rückgabe einzuleiten, musst du uns **vor Ablauf der 14 Tage** per E-Mail an **info@makani-germany.de** über deinen Widerruf informieren. Die Ware muss dann ebenfalls innerhalb von 14 Tagen nach deiner Widerrufsmitteilung zurückgesendet werden.\n\nBitte beachte, dass du die **Rücksendekosten selbst trägst**.\n\n[Quelle: Retoure / Widerrufsbelehrung]",
+      "contexts": [
+        "Folgen des Widerrufs\n\nWenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet. Wir können die Rückzahlung verweigern, bis wir die Waren wieder zurückerhalten haben oder bis Sie den Nachweis erbracht haben, dass Sie die Waren zurückgesandt haben, je nachdem, welches der frühere Zeitpunkt ist.",
+        "Sie haben die Waren unverzüglich und in jedem Fall spätestens binnen vierzehn Tagen ab dem Tag, an dem Sie uns über den Widerruf dieses Vertrags unterrichten, an uns zurückzusenden oder zu übergeben. Die Frist ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von vierzehn Tagen absenden. Sie tragen die unmittelbaren Kosten der Rücksendung der Waren. Sie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang mit ihnen zurückzuführen ist.\n\nAn:\n\nVDS Fulfillment\nc/o MAKANI\nSiemensstraße 14\nHerzberg am Harz\nDE 37412\n\nE-Mail: info@makani-germany.de",
+        "Widerrufsbelehrung\n\nWiderrufsrecht\n\nSie haben das Recht, binnen vierzehn Tagen diesen Vertrag zu widerrufen.\n\nDie Widerrufsfrist beträgt vierzehn Tage ab dem Tag, an dem Sie oder ein von Ihnen benannter Dritter, der nicht der Beförderer ist, die Waren in Besitz genommen haben bzw. hat.\n\nUm Ihr Widerrufsrecht auszuüben, müssen Sie uns (Makani GmbH, Serkan Dagdelen, Obstmarschenweg 258, 21683 Stade, E-Mail: info@makani-germany.de) mittels einer eindeutigen Erklärung (E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Dieses können Sie über folgende Seite tun: Retourenanmeldung\n\nZur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.\n\nFolgen des Widerrufs"
+      ],
+      "ground_truth": "Sie haben das Recht, binnen 14 Tagen den Vertrag zu widerrufen. Die Widerrufsfrist beginnt ab dem Tag, an dem Sie die Ware in Besitz genommen haben.",
+      "language": "de",
+      "category": "returns",
+      "latency_ms": 5382,
+      "sources": [
+        "returns_policy"
+      ]
+    },
+    {
+      "question": "Wer trägt die Rücksendekosten?",
+      "answer": "## Rücksendekosten\n\nDie **Rücksendekosten trägt der Kunde** selbst. Laut unserer Widerrufsbelehrung übernehmen wir als Shop die unmittelbaren Kosten der Rücksendung nicht.\n\nFalls du eine Retoure einleiten möchtest, sende die Ware an:\n\n> **VDS Fulfillment c/o MAKANI**\n> Siemensstraße 14, 37412 Herzberg am Harz\n\nBei weiteren Fragen erreichst du uns unter **info@makani-germany.de**. 😊\n\n[Quelle: Retoure/Widerrufsbelehrung]",
+      "contexts": [
+        "Sie haben die Waren unverzüglich und in jedem Fall spätestens binnen vierzehn Tagen ab dem Tag, an dem Sie uns über den Widerruf dieses Vertrags unterrichten, an uns zurückzusenden oder zu übergeben. Die Frist ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von vierzehn Tagen absenden. Sie tragen die unmittelbaren Kosten der Rücksendung der Waren. Sie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang mit ihnen zurückzuführen ist.\n\nAn:\n\nVDS Fulfillment\nc/o MAKANI\nSiemensstraße 14\nHerzberg am Harz\nDE 37412\n\nE-Mail: info@makani-germany.de",
+        "Folgen des Widerrufs\n\nWenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet. Wir können die Rückzahlung verweigern, bis wir die Waren wieder zurückerhalten haben oder bis Sie den Nachweis erbracht haben, dass Sie die Waren zurückgesandt haben, je nachdem, welches der frühere Zeitpunkt ist."
+      ],
+      "ground_truth": "Die Rücksendekosten trägt der Kunde bei Ausübung des Widerrufsrechts.",
+      "language": "de",
+      "category": "returns",
+      "latency_ms": 4508,
+      "sources": [
+        "returns_policy"
+      ]
+    },
+    {
+      "question": "Welche Zahlungsmethoden akzeptiert ihr?",
+      "answer": "## Zahlungsmethoden bei Makani Germany\n\nWir bieten folgende Zahlungsmethoden an:\n\n- **Kreditkarte** – Visa und Mastercard (mit 3D Secure Verifizierung)\n- **PayPal** – inkl. PayPal-Guthaben, Lastschrift oder Kreditkarte über PayPal\n- **Sofortüberweisung** – direkte Überweisung über dein Online-Banking\n\nBitte beachte, dass die Versandkosten teilweise von der gewählten Zahlungsart abhängen können.\n\n[Quelle: WEBSITE, VERSAND, DATENSCHUTZ]",
+      "contexts": [
+        "Gerne kannst du bei uns auch mit Kreditkarte bezahlen.\nWir akzeptieren Kreditkarten der Anbieter Visa und MasterCard. \nSicherheit bei Zahlung mit Kreditkarte:\nDie europäischen Richtlinien haben sich verändert, damit die Online-Kartenzahlung noch sicherer für dich wird. Für jede ab dem 14. September 2019 aufgegebene Bestellung wirst du gebeten, dich durch 3D Secure zu verifizieren. Dies wird, je nachdem, welchen Kartentyp du nutzt, gekennzeichnet sein (z.B. Visa Secure, Mastercard Identity Check etc.). \nWas muss ich tun?",
+        "Wir bieten Ihnen folgende Zahlungsarten an. Suchen Sie sich einfach die für Sie optimale Zahlart aus. Die Versandkosten sind teilweise abhängig von der gewählten Zahlungsart. Die in den jeweiligen Angeboten angeführten Preise stellen Endpreise dar. Sie beinhalten alle Preisbestandteile einschließlich etwaig anfallender Steuern wie Mehrwertsteuer. Nur bei grenzüberschreitender Lieferung können im Einzelfall weitere Steuern (z.B. im Falle eines innergemeinschaftlichen Erwerbs) und/oder Abgaben (z.B. Zölle) von Ihnen zu zahlen sein, jedoch nicht an den Verkäufer, sondern an die dort zuständigen Zoll- bzw. Steuerbehörden",
+        "Um mit PayPal bezahlen zu können, benötigst du einen kostenlosen Account bei PayPal.\nPayPal bietet verschiedene Zahlungsmöglichkeiten an und versichert Bestellungen bis zu 500€. Möchtest du deine Bestellung via PayPal bezahlen, wirst du an PayPal weitergeleitet und gebeten, dich mit deinem Account einzuloggen oder dich neu zu registrieren. Jetzt nur noch die gewünschte Zahlungsmethode wählen (PayPal-Guthaben, Lastschrift oder Kreditkarte) und die Bezahlung bestätigen. Wir erhalten daraufhin von PayPal eine Bestätigung und verschicken deine Ware schnellstmöglich.",
+        "Beim Bezahlen per “Sofortüberweisung” erfolgt eine Übermittlung Ihrer PIN und TAN an die Sofort GmbH. Der Bezahlanbieter loggt sich damit in Ihr Online-Banking-Konto ein, überprüft automatisch Ihren Kontostand und nimmt die Überweisung vor. Es folgt eine unverzügliche Transaktionsbestätigung. Ihre Umsätze, der Kreditrahmen Ihres Dispokredits und die Existenz anderer Konten sowie deren Bestände werden nach dem Einloggen ebenfalls automatisiert geprüft.",
+        "Einzelheiten zur Zahlung mit Sofortüberweisung finden Sie unter: https://www.sofort.de/datenschutz.html und https://www.klarna.com/sofort/.\n\nGoogle AdSense\n\nUnsere Website verwendet Google AdSense. Anbieter ist die Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.\n\nGoogle AdSense dient der Einbindung von Werbeanzeigen und setzt Cookies. Cookies sind kleine Textdateien, die Ihr Webbrowser auf Ihrem Endgerät speichert, um die Nutzung der Website analysieren. Google AdSense setzt außerdem Web Beacons ein. Web Beacons sind unsichtbare Grafiken, die eine Analyse des Besucherverkehrs auf unserer Wesite ermöglichen."
+      ],
+      "ground_truth": "Makani bietet verschiedene Zahlungsarten an, darunter Kreditkarte, PayPal und weitere Optionen. Die genauen Zahlungsarten sind von der Versandart abhängig.",
+      "language": "de",
+      "category": "payment",
+      "latency_ms": 4195,
+      "sources": [
+        "website",
+        "shipping_policy",
+        "privacy_policy"
+      ]
+    },
+    {
+      "question": "Versendet ihr in die Schweiz?",
+      "answer": "Ja, wir versenden in die Schweiz! 🇨🇭\n\nDie Versandkosten betragen **14,90€**, und die Lieferung dauert in der Regel **4–5 Werktage**. Das Beste: Du musst **keine Zollgebühren** zahlen – das übernehmen wir für dich!\n\nBitte beachte jedoch, dass für Kunden aus der Schweiz **keine Rückgabe** möglich ist.\n\n[Quelle: Versandrichtlinie, Website]",
+      "contexts": [
+        "Nein, nach Bestellung fallen dank unserer Partner in der Schweiz keine zusätzlichen Zollkosten an.\nWir versenden binnen 24 Stunden deine Bestellung, sofern sie auf Lager ist. Die Dauer beträgt in der Regel 1-3 Tage.\n\nWenn du deine Bestellung an eine Packstation liefern lassen möchtest, ist das mit einem Kundenkonto bei der DHL kein Problem (Kundenkonto erstellen \nhier\n).\nGib bitte bei deiner Bestellung in der Adresszeile die Nummer der Packstation und deine persönliche Postnummer als Adresszusatz an.",
+        "FAQ\n \n\nWir sind schnell! Deine Bestellung wird in der Regel innerhalb von 24 Stunden verschickt. In Deutschland und Österreich ist der Versand \nkostenlos\n. \nIn die Schweiz kostet es 14,90€. Das Beste ist, dass du keine Zollgebühren zahlen musst, denn das übernehmen wir für dich!\nFür weitere Länder findest du die Versandkosten weiter unten im FAQ.",
+        "Beim Bezahlen per “Sofortüberweisung” erfolgt eine Übermittlung Ihrer PIN und TAN an die Sofort GmbH. Der Bezahlanbieter loggt sich damit in Ihr Online-Banking-Konto ein, überprüft automatisch Ihren Kontostand und nimmt die Überweisung vor. Es folgt eine unverzügliche Transaktionsbestätigung. Ihre Umsätze, der Kreditrahmen Ihres Dispokredits und die Existenz anderer Konten sowie deren Bestände werden nach dem Einloggen ebenfalls automatisiert geprüft.",
+        "Ganz unkompliziert: Du hast 14 Tage Zeit, um zu entscheiden. Nicht 100% zufrieden? Schick es zurück und wähle zwischen voller Rückerstattung oder Umtausch.\nDies ganz bequem hier tun:\nRetourenportal\nBitte beachte, dass für Kunden aus der Schweiz keine Rückgabe möglich ist.\n\nAbsolut! Unsere Taschen aus hochwertigem, veganem Leder sind robust und für ihre Langlebigkeit bekannt. Jedes Stück durchläuft \nstrenge\n Qualitätskontrollen – für langanhaltende Freude an deinem Makani-Produkt.",
+        "Versand & Zahlungsbedingungen\n\nWir verschicken unsere Pakete immer versichert über unseren Versanddienstleister DHL. \n\nAlle Details zum Versand findest Du hier\n\nVersandkosten\n\nDeutschland: Versandkostenfrei\nÖsterreich: 9,90€ | Versandkostenfrei ab 49,90€\nSchweiz: 14,90€ \nEU: 14,90€ \n\nLieferzeiten\n\nWir versenden innerhalb von 24 Stunden.\nDie Lieferung innerhalb Deutschland erfolgt nach 2 – 3 Werktagen.\nBestellungen aus Österreich benötigen bis zu 3- 4 Werktage.\nLieferungen in andere EU Länder benötigen bis zu 5 Werktage.\nLieferungen in die Schweiz benötigen bis zu 4 - 5 Werktage.\n\nDu kannst Deine Bestellung innerhalb von 14 Tagen laut unseren (Widerrufsrecht) widerrufen ausgenommen Schweizer Kunden.\n\nNicht zustellbare Sendungen"
+      ],
+      "ground_truth": "Ja, Makani versendet in die Schweiz. Die Versandkosten betragen 14,90 EUR. Es fallen keine zusätzlichen Zollkosten an dank ihrer Partner in der Schweiz.",
+      "language": "de",
+      "category": "shipping",
+      "latency_ms": 3058,
+      "sources": [
+        "website",
+        "privacy_policy",
+        "shipping_policy"
+      ]
+    },
+    {
+      "question": "Was passiert wenn mein Paket nicht zugestellt werden kann?",
+      "answer": "## Nicht zugestelltes Paket 📦\n\nWenn dein Paket nicht zugestellt werden kann, hast du folgende Möglichkeiten:\n\n- **Packstation nutzen:** Du kannst dein Paket alternativ an eine DHL Packstation liefern lassen. Trage dazu die Packstation (+ Nummer) in die Adresszeile ein und gib deine persönliche Postnummer im Adresszusatz an.\n\n- **Sendungsstatus prüfen:** Sollte sich der Sendungsstatus nach **10 Tagen** nicht verändert haben, kontaktiere uns bitte mit dem Betreff **\"Paket nicht erhalten\"** – wir leiten dann weitere Schritte ein.\n\n- **Beschädigtes Paket:** Falls dein Paket beschädigt ankommt, fotografiere den Schaden sofort, fülle das DHL-Schadensanzeigeformular aus und gib das Paket in einer Postfiliale ab. Wir kümmern uns dann um eine Ersatzlieferung.\n\nBei weiteren Fragen stehen wir dir gerne zur Verfügung! 😊\n\n[Quelle: Website]",
+      "contexts": [
+        "Sollte dein Paket nicht einwandfrei bei dir ankommen, fotografiere bitte den Schaden direkt!\nAnschließend hast du die Möglichkeit bei eine Schadensanzeige bei DHL aufzugeben. Bitte fülle dazu das Dokument für die Schadensanzeige der DHL \nhier\n aus. Bitte gib die Sendung zusammen mit der Schadensanzeige in einer Postfiliale ab, sodass deine Ware begutachtet werden kann.\nWir werden dann auf dich zurückkommen und uns um eine Ersatzlieferung kümmern.",
+        "Solange der Sendungsstatus intern in \"nicht ausgeführt\" steht, können wir deine Bestellung noch stornieren. Bitte \nkontaktiere\n uns \nhier\n mit dem Betreff \"Stornierung meiner Bestellung\". Wir werden anschließend deine Bestellung stornieren (sofern möglich) und die das Geld erstatten. Gib bitte unbedingt deine Bestellnummer mit an.\nSollte deine Bestellung bereits bearbeitet worden sein, kann sie nicht mehr storniert werden. Du kannst nach Erhalt natürlich von deinem Widerrufsrecht Gebrauch machen.",
+        "Nach Erhalt der Ware, kann es in Einzelfällen bis zu 14 Tage dauern, bis du deine Rückerstattung erhältst.\n\nIm Normalfall erhältst du deine Bestellung innerhalb von 1 bis 3 Werktagen. Bitte hab Verständnis dafür, dass es in Zeiten von hohem Bestell- und Lieferaufkommen sowohl bei unserem Logistik- als auch Versanddienstleister DHL zu Verzögerungen kommen kann.\nSollte sich der Sendungsstatus deiner Bestellung nach \n10 Tagen\n nicht verändert haben, kontaktiere uns gerne\n hier \nund gib im Betreff \"Paket nicht erhalten\" an. Wir können dann weitere Schritte in die Wege leiten.",
+        "Sollte sich der Sendungsstatus deiner Bestellung nach \n10 Tagen\n nicht verändert haben, kontaktiere uns gerne \nhier\n und gib im Betreff \"Paket nicht erhalten\" an. Wir können dann weitere Schritte in die Wege leiten.\nWenn du dein Paket an die DHL Packstation liefern lassen möchtest, ist das kein Problem. Bitte trage die Packstation (+Nummer) in die Adresszeile ein und gib deine persönliche Postnummer im Adresszusatz an.",
+        "(4) Sperrgut (Pakete mit einem größeren Volumen als 1 qm) werden in der Regel per Spedition geliefert. Makani weist ausdrücklich darauf hin, dass diese Ware nicht ins Haus getragen wird. \n\nRücksendung\n\n(1) Bitte verwenden Sie bei der Rücksendung der Ware und des Zubehörs nach Möglichkeit die Originalverpackung, auch wenn diese durch eine Öffnung zur Funktionsprüfung beschädigt sein sollte.\n\n(2) Die Rücksendungskosten trägt der Kunde, wenn dieser von seinem Widerrufsrecht gebrauch macht. \n\nEigentumsvorbehalt"
+      ],
+      "ground_truth": "Sollte die Ware durch fehlende oder falsche Adressangaben oder durch Nicht-Abholung zurückgeschickt werden, wird eine Aufwandspauschale erhoben: Deutschland 10€, Österreich 15€, Schweiz 20€.",
+      "language": "de",
+      "category": "shipping",
+      "latency_ms": 5955,
+      "sources": [
+        "website",
+        "terms_policy"
+      ]
+    },
+    {
+      "question": "Habt ihr Geldbeutel im Sortiment?",
+      "answer": "Ja, wir haben Geldbeutel im Sortiment! 😊\n\nAktuell bieten wir folgende Modelle an, alle zum Preis von **69,90 €**:\n\n| Modell | Farbe |\n|---|---|\n| **PK LIAM** | Black |\n| **LIAM** | Butter |\n| **LIAM** | Burgundy |\n| **MALU** | Lemon |\n| **MC BENICE** | Creme |\n\nKann ich dir bei der Auswahl helfen oder hast du Fragen zu einem bestimmten Modell?\n\n[Quelle: Produkt]",
+      "contexts": [
+        "Produkt: PK LIAM - BLACK\nMarke: Makani\nKategorie: Geldbeutel & Geldklammern\nTags: Black, black wallet, custom upsell, Geldbeutel, Geldbörse, Portemonnaie, Portemonnaies, Portmonnaie, Protmonee, Schwarz, schwarze Geldbörse, schwarzes wallet, shoptok, wallet, WalletA, wallets\nPreis: 69.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: LIAM - BUTTER\nMarke: Makani\nKategorie: Geldbeutel & Geldklammern\nTags: custom upsell, Geldbeutel, Geldbörse, Portemonnaie, Portemonnaies, Portmonnaie, Protmonee, shoptok, wallet, WalletA, wallets\nPreis: 69.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: MALU - LEMON\nMarke: Makani\nKategorie: Geldbeutel & Geldklammern\nTags: custom upsell, Gelb, Geldbeutel, Geldbörse, lemon, malu, malu lemon, Portemonnaie, Portmonee, Portmonnaie, shoptok, wallet, WalletA\nPreis: 69.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: LIAM - BURGUNDY\nMarke: Makani\nKategorie: Geldbeutel & Geldklammern\nTags: custom upsell, Geldbeutel, Geldbörse, Portemonnaie, Portemonnaies, Portmonnaie, Protmonee, shoptok, wallet, WalletA, wallets\nPreis: 69.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: MC BENICE - CREME\nMarke: Makani\nKategorie: Geldbeutel & Geldklammern\nTags: Benice Creme, creme, custom upsell, Geldbeutel, Geldbörse, Portemonnaie, Portmonnaie, Protemonnaies, Protmonee, shoptok, wallet, WalletA, wallets\nPreis: 69.9 EUR\nBeschreibung: Makani Germany"
+      ],
+      "ground_truth": "Ja, Makani bietet Geldbeutel und Geldklammern an, zum Beispiel den MC KAIA - TAUPE für 69,90 EUR.",
+      "language": "de",
+      "category": "product",
+      "latency_ms": 3933,
+      "sources": [
+        "product_catalog"
+      ]
+    },
+    {
+      "question": "Wer ist die verantwortliche Stelle für den Datenschutz?",
+      "answer": "Die verantwortliche Stelle für die Datenverarbeitung bei Makani Germany ist:\n\n**Makani GmbH**\nSerkan Dagdelen\nObstmarschenweg 258\n21683 Stade\n\n[Quelle: Datenschutzerklärung]",
+      "contexts": [
+        "Datenschutzerklärung\n\nAllgemeiner Hinweis und Pflichtinformationen\n\nBenennung der verantwortlichen Stelle\n\nDie verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:\n\nMakani GmbH\nSerkan Dagdelen\nObstmarschenweg 258\n21683 Stade\n\nDie verantwortliche Stelle entscheidet allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, Kontaktdaten o. Ä.).\n\nWiderruf Ihrer Einwilligung zur Datenverarbeitung",
+        "Das Unternehmen Google ist für das us-europäische Datenschutzübereinkommen \"Privacy Shield\" zertifiziert. Dieses Datenschutzübereinkommen soll die Einhaltung des in der EU geltenden Datenschutzniveaus gewährleisten.\n\nEinzelheiten über Google Web Fonts finden Sie unter: https://www.google.com/fonts#AboutPlace:about und weitere Informationen in den Datenschutzbestimmungen von Google: https://policies.google.com/privacy/partners?hl=de",
+        "Die Verarbeitung der bei der Registrierung eingegebenen Daten erfolgt auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO). Ein Widerruf Ihrer bereits erteilten Einwilligung ist jederzeit möglich. Für den Widerruf genügt eine formlose Mitteilung per E-Mail. Die Rechtmäßigkeit der bereits erfolgten Datenverarbeitung bleibt vom Widerruf unberührt.\n\nWir speichern die bei der Registrierung erfassten Daten während des Zeitraums, den Sie auf unserer Website registriert sind. Ihren Daten werden gelöscht, sollten Sie Ihre Registrierung aufheben. Gesetzliche Aufbewahrungsfristen bleiben unberührt.\n\nKontaktformular",
+        "Die bei der Newsletteranmeldung gemachten Daten werden ausschließlich auf Grundlage Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO) verarbeitet. Ein Widerruf Ihrer bereits erteilten Einwilligung ist jederzeit möglich. Für den Widerruf genügt eine formlose Mitteilung per E-Mail oder Sie melden sich über den \"Austragen\"-Link im Newsletter ab. Die Rechtmäßigkeit der bereits erfolgten Datenverarbeitungsvorgänge bleibt vom Widerruf unberührt.\n\nZur Einrichtung des Abonnements eingegebene Daten werden im Falle der Abmeldung gelöscht. Sollten diese Daten für andere Zwecke und an anderer Stelle an uns übermittelt worden sein, verbleiben diese weiterhin bei uns.\n\nCookies",
+        "Recht auf Datenübertragbarkeit\n\nIhnen steht das Recht zu, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an Dritte aushändigen zu lassen. Die Bereitstellung erfolgt in einem maschinenlesbaren Format. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.\n\nRecht auf Auskunft, Berichtigung, Sperrung, Löschung"
+      ],
+      "ground_truth": "Die verantwortliche Stelle für die Datenverarbeitung ist die Makani GmbH, vertreten durch Serkan Dagdelen, Obstmarschenweg 258, 21683 Stade.",
+      "language": "de",
+      "category": "privacy",
+      "latency_ms": 2718,
+      "sources": [
+        "privacy_policy"
+      ]
+    },
+    {
+      "question": "What is the return window at Makani Germany?",
+      "answer": "## Return Policy at Makani Germany\n\nYou have **14 days** to withdraw from your contract (right of withdrawal). The return window starts on the day you or a designated third party receives the goods.\n\nTo initiate a return, simply notify us via **email at info@makani-germany.de** before the 14-day deadline expires. Please note that **return shipping costs are covered by the customer**.\n\n[Source: Retoure / Widerrufsbelehrung]",
+      "contexts": [
+        "Widerrufsbelehrung\n\nWiderrufsrecht\n\nSie haben das Recht, binnen vierzehn Tagen diesen Vertrag zu widerrufen.\n\nDie Widerrufsfrist beträgt vierzehn Tage ab dem Tag, an dem Sie oder ein von Ihnen benannter Dritter, der nicht der Beförderer ist, die Waren in Besitz genommen haben bzw. hat.\n\nUm Ihr Widerrufsrecht auszuüben, müssen Sie uns (Makani GmbH, Serkan Dagdelen, Obstmarschenweg 258, 21683 Stade, E-Mail: info@makani-germany.de) mittels einer eindeutigen Erklärung (E-Mail) über Ihren Entschluss, diesen Vertrag zu widerrufen, informieren. Dieses können Sie über folgende Seite tun: Retourenanmeldung\n\nZur Wahrung der Widerrufsfrist reicht es aus, dass Sie die Mitteilung über die Ausübung des Widerrufsrechts vor Ablauf der Widerrufsfrist absenden.\n\nFolgen des Widerrufs",
+        "Sie haben die Waren unverzüglich und in jedem Fall spätestens binnen vierzehn Tagen ab dem Tag, an dem Sie uns über den Widerruf dieses Vertrags unterrichten, an uns zurückzusenden oder zu übergeben. Die Frist ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von vierzehn Tagen absenden. Sie tragen die unmittelbaren Kosten der Rücksendung der Waren. Sie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang mit ihnen zurückzuführen ist.\n\nAn:\n\nVDS Fulfillment\nc/o MAKANI\nSiemensstraße 14\nHerzberg am Harz\nDE 37412\n\nE-Mail: info@makani-germany.de"
+      ],
+      "ground_truth": "You have 14 days to withdraw from the contract. The withdrawal period begins from the day you received the goods.",
+      "language": "en",
+      "category": "returns",
+      "latency_ms": 3873,
+      "sources": [
+        "returns_policy"
+      ]
+    },
+    {
+      "question": "Do you ship to Switzerland?",
+      "answer": "Yes, we do ship to Switzerland! 🇨🇭\n\nHere are the details:\n- **Shipping cost:** 14.90€\n- **Delivery time:** 4–5 working days\n- **Dispatch:** Within 24 hours via DHL (insured)\n\nPlease note that additional customs duties or import fees may apply for Swiss orders, which are to be covered by the customer. Also, please be aware that the standard 14-day return/withdrawal right does not apply to Swiss customers.\n\n[Source: Versand & Zahlungsbedingungen]",
+      "contexts": [
+        "Nicht zustellbare Sendungen\n\nSollte die Ware durch fehlende/falsche Adressangaben des Kunden oder aber durch nicht Abholung des Paketes an die Makani GmbH zurückgeschickt, so wird eine Aufwandspauschale vom Käufer getragen. Diese beträgt für Deutschland 10€, Österreich 15€ und für die Schweiz 20€. Selbiges gilt für Sendungen deren Annahme verweigert wurde.\n\nZölle, Steuern & Einfuhrabgaben\n\nBei Lieferungen in Länder außerhalb der EU können zusätzliche Zölle, Steuern und Gebühren anfallen. Diese sind vom Kunden zu tragen und nicht im Kaufpreis enthalten. Der Verkäufer hat keinen Einfluss auf diese Gebühren.\n\nZahlungsarten",
+        ". Steuerbehörden. Die anfallenden Liefer- und Versandkosten sind nicht im Kaufpreis enthalten, sie sind über die Seite „Versandkosten“ aufrufbar, werden im Laufe des Bestellvorganges gesondert ausgewiesen und sind von Ihnen zusätzlich zu tragen.",
+        "Wir bieten Ihnen folgende Zahlungsarten an. Suchen Sie sich einfach die für Sie optimale Zahlart aus. Die Versandkosten sind teilweise abhängig von der gewählten Zahlungsart. Die in den jeweiligen Angeboten angeführten Preise stellen Endpreise dar. Sie beinhalten alle Preisbestandteile einschließlich etwaig anfallender Steuern wie Mehrwertsteuer. Nur bei grenzüberschreitender Lieferung können im Einzelfall weitere Steuern (z.B. im Falle eines innergemeinschaftlichen Erwerbs) und/oder Abgaben (z.B. Zölle) von Ihnen zu zahlen sein, jedoch nicht an den Verkäufer, sondern an die dort zuständigen Zoll- bzw. Steuerbehörden",
+        "Versand & Zahlungsbedingungen\n\nWir verschicken unsere Pakete immer versichert über unseren Versanddienstleister DHL. \n\nAlle Details zum Versand findest Du hier\n\nVersandkosten\n\nDeutschland: Versandkostenfrei\nÖsterreich: 9,90€ | Versandkostenfrei ab 49,90€\nSchweiz: 14,90€ \nEU: 14,90€ \n\nLieferzeiten\n\nWir versenden innerhalb von 24 Stunden.\nDie Lieferung innerhalb Deutschland erfolgt nach 2 – 3 Werktagen.\nBestellungen aus Österreich benötigen bis zu 3- 4 Werktage.\nLieferungen in andere EU Länder benötigen bis zu 5 Werktage.\nLieferungen in die Schweiz benötigen bis zu 4 - 5 Werktage.\n\nDu kannst Deine Bestellung innerhalb von 14 Tagen laut unseren (Widerrufsrecht) widerrufen ausgenommen Schweizer Kunden.\n\nNicht zustellbare Sendungen"
+      ],
+      "ground_truth": "Yes, Makani ships to Switzerland. Shipping costs are 14.90 EUR. No additional customs costs apply thanks to their partners in Switzerland.",
+      "language": "en",
+      "category": "shipping",
+      "latency_ms": 4524,
+      "sources": [
+        "shipping_policy"
+      ]
+    },
+    {
+      "question": "What black handbags do you have available?",
+      "answer": "## Black Handbags at Makani Germany 🖤\n\nWe currently have the following black handbags available:\n\n| Product | Price |\n|---|---|\n| **PK VALDA** - All Black | 159,90 € |\n| **VALDA** - All Black | 159,90 € |\n| **LEILANI** - Black | 149,90 € |\n| **CHLOIE** - Black | 159,90 € |\n| **CHLOIE** - Black x Dark Brown | 159,90 € |\n\nOur most affordable option is the **Leilani in Black** at 149,90 €, while the other styles are priced at 159,90 €. If you'd like more details about a specific bag, feel free to ask! 😊\n\n[Source: Product Catalogue]",
+      "contexts": [
+        "Produkt: PK VALDA - ALL BLACK\nMarke: Makani\nKategorie: Handtaschen\nTags: Black, Black Bag, Classic Bag, Crossbody, Crossbody Bag, Crossbodybag, custom upsell, Handtasche, shoptok, Umhängetasche, Valda, valda 2.0, Vlada\nPreis: 159.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: VALDA - ALL BLACK\nMarke: Makani\nKategorie: Handtaschen\nTags: Black, Black Bag, Classic Bag, Crossbody, Crossbody Bag, Crossbodybag, custom upsell, Handtasche, shoptok, Umhängetasche, Valda, valda 2.0, Vlada\nPreis: 159.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: LEILANI - BLACK\nMarke: Makani\nKategorie: Handtaschen\nTags: Black, Black Bag, custom upsell, Handtasche, Schwarz, shoptok, Umhängetasche\nPreis: 149.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: CHLOIE - BLACK\nMarke: MAKANI\nKategorie: Handtaschen\nTags: Black, Black Bag, custom upsell, preorder, schöne Tasche, shoptok\nPreis: 159.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: CHLOIE BLACK x DARK BROWN\nMarke: MAKANI\nTags: Black, Black Bag, chloie, custom upsell, Dark Brown, Handtasche\nPreis: 159.9 EUR\nBeschreibung: nan"
+      ],
+      "ground_truth": "Makani offers several black handbags including HALIA - BLACK at 99.90 EUR, OLINA - BLACK at 119.90 EUR, NALUA - BLACK, ANA - BLACK, and NANI - BLACK at 149.90 EUR among others.",
+      "language": "en",
+      "category": "product",
+      "latency_ms": 4711,
+      "sources": [
+        "product_catalog"
+      ]
+    },
+    {
+      "question": "How long does delivery take to Germany?",
+      "answer": "Delivery to Germany takes **2–3 working days**. We also ship within 24 hours of your order, and shipping is **free of charge** for Germany! 🎉\n\n[Source: Versand & Zahlungsbedingungen]",
+      "contexts": [
+        "Nicht zustellbare Sendungen\n\nSollte die Ware durch fehlende/falsche Adressangaben des Kunden oder aber durch nicht Abholung des Paketes an die Makani GmbH zurückgeschickt, so wird eine Aufwandspauschale vom Käufer getragen. Diese beträgt für Deutschland 10€, Österreich 15€ und für die Schweiz 20€. Selbiges gilt für Sendungen deren Annahme verweigert wurde.\n\nZölle, Steuern & Einfuhrabgaben\n\nBei Lieferungen in Länder außerhalb der EU können zusätzliche Zölle, Steuern und Gebühren anfallen. Diese sind vom Kunden zu tragen und nicht im Kaufpreis enthalten. Der Verkäufer hat keinen Einfluss auf diese Gebühren.\n\nZahlungsarten",
+        "Versand & Zahlungsbedingungen\n\nWir verschicken unsere Pakete immer versichert über unseren Versanddienstleister DHL. \n\nAlle Details zum Versand findest Du hier\n\nVersandkosten\n\nDeutschland: Versandkostenfrei\nÖsterreich: 9,90€ | Versandkostenfrei ab 49,90€\nSchweiz: 14,90€ \nEU: 14,90€ \n\nLieferzeiten\n\nWir versenden innerhalb von 24 Stunden.\nDie Lieferung innerhalb Deutschland erfolgt nach 2 – 3 Werktagen.\nBestellungen aus Österreich benötigen bis zu 3- 4 Werktage.\nLieferungen in andere EU Länder benötigen bis zu 5 Werktage.\nLieferungen in die Schweiz benötigen bis zu 4 - 5 Werktage.\n\nDu kannst Deine Bestellung innerhalb von 14 Tagen laut unseren (Widerrufsrecht) widerrufen ausgenommen Schweizer Kunden.\n\nNicht zustellbare Sendungen"
+      ],
+      "ground_truth": "Delivery within Germany takes 2-3 business days. Orders are shipped within 24 hours if the item is in stock.",
+      "language": "en",
+      "category": "shipping",
+      "latency_ms": 2806,
+      "sources": [
+        "shipping_policy"
+      ]
+    },
+    {
+      "question": "Who pays for return shipping?",
+      "answer": "## Return Shipping Costs\n\nThe **customer is responsible** for paying the direct costs of return shipping.\n\nPlease send your return to:\n\n> **VDS Fulfillment c/o MAKANI**\n> Siemensstraße 14\n> 37412 Herzberg am Harz, Germany\n\nIf you have any further questions, feel free to reach out at **info@makani-germany.de**.\n\n[Source: Rückgabe-/Widerrufsrichtlinie]",
+      "contexts": [
+        "Sie haben die Waren unverzüglich und in jedem Fall spätestens binnen vierzehn Tagen ab dem Tag, an dem Sie uns über den Widerruf dieses Vertrags unterrichten, an uns zurückzusenden oder zu übergeben. Die Frist ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von vierzehn Tagen absenden. Sie tragen die unmittelbaren Kosten der Rücksendung der Waren. Sie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang mit ihnen zurückzuführen ist.\n\nAn:\n\nVDS Fulfillment\nc/o MAKANI\nSiemensstraße 14\nHerzberg am Harz\nDE 37412\n\nE-Mail: info@makani-germany.de"
+      ],
+      "ground_truth": "The customer bears the return shipping costs when exercising the right of withdrawal.",
+      "language": "en",
+      "category": "returns",
+      "latency_ms": 6919,
+      "sources": [
+        "returns_policy"
+      ]
+    },
+    {
+      "question": "Is shipping free to Germany?",
+      "answer": "Yes! Shipping to Germany is completely **free of charge** 🎉\n\nOrders are dispatched within 24 hours and delivered within **2–3 business days** via DHL.\n\n[Source: Versand & Zahlungsbedingungen]",
+      "contexts": [
+        "Nicht zustellbare Sendungen\n\nSollte die Ware durch fehlende/falsche Adressangaben des Kunden oder aber durch nicht Abholung des Paketes an die Makani GmbH zurückgeschickt, so wird eine Aufwandspauschale vom Käufer getragen. Diese beträgt für Deutschland 10€, Österreich 15€ und für die Schweiz 20€. Selbiges gilt für Sendungen deren Annahme verweigert wurde.\n\nZölle, Steuern & Einfuhrabgaben\n\nBei Lieferungen in Länder außerhalb der EU können zusätzliche Zölle, Steuern und Gebühren anfallen. Diese sind vom Kunden zu tragen und nicht im Kaufpreis enthalten. Der Verkäufer hat keinen Einfluss auf diese Gebühren.\n\nZahlungsarten",
+        "Wir bieten Ihnen folgende Zahlungsarten an. Suchen Sie sich einfach die für Sie optimale Zahlart aus. Die Versandkosten sind teilweise abhängig von der gewählten Zahlungsart. Die in den jeweiligen Angeboten angeführten Preise stellen Endpreise dar. Sie beinhalten alle Preisbestandteile einschließlich etwaig anfallender Steuern wie Mehrwertsteuer. Nur bei grenzüberschreitender Lieferung können im Einzelfall weitere Steuern (z.B. im Falle eines innergemeinschaftlichen Erwerbs) und/oder Abgaben (z.B. Zölle) von Ihnen zu zahlen sein, jedoch nicht an den Verkäufer, sondern an die dort zuständigen Zoll- bzw. Steuerbehörden",
+        "Versand & Zahlungsbedingungen\n\nWir verschicken unsere Pakete immer versichert über unseren Versanddienstleister DHL. \n\nAlle Details zum Versand findest Du hier\n\nVersandkosten\n\nDeutschland: Versandkostenfrei\nÖsterreich: 9,90€ | Versandkostenfrei ab 49,90€\nSchweiz: 14,90€ \nEU: 14,90€ \n\nLieferzeiten\n\nWir versenden innerhalb von 24 Stunden.\nDie Lieferung innerhalb Deutschland erfolgt nach 2 – 3 Werktagen.\nBestellungen aus Österreich benötigen bis zu 3- 4 Werktage.\nLieferungen in andere EU Länder benötigen bis zu 5 Werktage.\nLieferungen in die Schweiz benötigen bis zu 4 - 5 Werktage.\n\nDu kannst Deine Bestellung innerhalb von 14 Tagen laut unseren (Widerrufsrecht) widerrufen ausgenommen Schweizer Kunden.\n\nNicht zustellbare Sendungen",
+        ". Steuerbehörden. Die anfallenden Liefer- und Versandkosten sind nicht im Kaufpreis enthalten, sie sind über die Seite „Versandkosten“ aufrufbar, werden im Laufe des Bestellvorganges gesondert ausgewiesen und sind von Ihnen zusätzlich zu tragen."
+      ],
+      "ground_truth": "Yes, shipping within Germany is free of charge with no minimum order value.",
+      "language": "en",
+      "category": "shipping",
+      "latency_ms": 3379,
+      "sources": [
+        "shipping_policy"
+      ]
+    },
+    {
+      "question": "What happens if my package cannot be delivered?",
+      "answer": "## Undeliverable Packages 📦\n\nIf your package cannot be delivered and is returned to Makani GmbH — for example due to an incorrect address, failure to pick up the parcel, or refusal of delivery — **a handling fee will be charged to you**:\n\n| Country | Fee |\n|---|---|\n| 🇩🇪 Germany | €10 |\n| 🇦🇹 Austria | €15 |\n| 🇨🇭 Switzerland | €20 |\n\nPlease make sure your delivery address is correct when placing your order to avoid these charges!\n\nIf you have any further questions, feel free to contact us directly. 😊\n\n[Source: Versandrichtlinie]",
+      "contexts": [
+        "Nicht zustellbare Sendungen\n\nSollte die Ware durch fehlende/falsche Adressangaben des Kunden oder aber durch nicht Abholung des Paketes an die Makani GmbH zurückgeschickt, so wird eine Aufwandspauschale vom Käufer getragen. Diese beträgt für Deutschland 10€, Österreich 15€ und für die Schweiz 20€. Selbiges gilt für Sendungen deren Annahme verweigert wurde.\n\nZölle, Steuern & Einfuhrabgaben\n\nBei Lieferungen in Länder außerhalb der EU können zusätzliche Zölle, Steuern und Gebühren anfallen. Diese sind vom Kunden zu tragen und nicht im Kaufpreis enthalten. Der Verkäufer hat keinen Einfluss auf diese Gebühren.\n\nZahlungsarten"
+      ],
+      "ground_truth": "If the package is returned due to incorrect address or non-collection, a handling fee is charged: Germany 10€, Austria 15€, Switzerland 20€.",
+      "language": "en",
+      "category": "shipping",
+      "latency_ms": 4325,
+      "sources": [
+        "shipping_policy"
+      ]
+    },
+    {
+      "question": "Do you offer wallets?",
+      "answer": "Yes, we do! 😊 At **Makani Germany**, we offer a selection of stylish wallets from our **Geldbeutel & Geldklammern** category.\n\nCurrently available styles include the **LIAM** wallet in multiple colors:\n- 🤍 **Creme**\n- 🤎 **Dark Brown**\n- 🐆 **Leo White**\n- 🧈 **Butter**\n\nThere's also the **MC LIAM - Creme** variant. All wallets are priced at **€69.90**.\n\nFeel free to ask if you need help choosing the right one! [Quelle: Produkt]",
+      "contexts": [
+        "Produkt: MC LIAM - CREME\nMarke: Makani\nKategorie: Geldbeutel & Geldklammern\nTags: cream, creme, creme wallet, custom upsell, Geldbeutel, Geldbörse, Geldbörsen, helle geldbörse, helles wallet, Portemonnaie, Portemonnaies, Portmonnaie, Protmonee, shoptok, wallet, WalletA, wallets\nPreis: 69.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: LIAM - CREME\nMarke: Makani\nKategorie: Geldbeutel & Geldklammern\nTags: cream, creme, creme wallet, custom upsell, Geldbeutel, Geldbörse, Geldbörsen, helle geldbörse, helles wallet, Portemonnaie, Portemonnaies, Portmonnaie, Protmonee, shoptok, wallet, WalletA, wallets\nPreis: 69.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: LIAM - DARK BROWN\nMarke: Makani\nKategorie: Geldbeutel & Geldklammern\nTags: Braun, braunes wallet, brown, brown wallet, custom upsell, Dark Brown, dunkel braun, Geldbeutel, Geldbörse, Portemonnaie, Portemonnaies, Portmonnaie, Protmonee, shoptok, wallet, wallet braun, WalletA, wallets\nPreis: 69.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: LIAM - LEO WHITE\nMarke: Makani\nKategorie: Geldbeutel & Geldklammern\nTags: custom upsell, Geldbeutel, Geldbörse, Portemonnaie, Portemonnaies, Portmonnaie, Protmonee, shoptok, wallet, WalletA, wallets\nPreis: 69.9 EUR\nBeschreibung: Makani Germany",
+        "Produkt: LIAM - BUTTER\nMarke: Makani\nKategorie: Geldbeutel & Geldklammern\nTags: custom upsell, Geldbeutel, Geldbörse, Portemonnaie, Portemonnaies, Portmonnaie, Protmonee, shoptok, wallet, WalletA, wallets\nPreis: 69.9 EUR\nBeschreibung: Makani Germany"
+      ],
+      "ground_truth": "Yes, Makani offers wallets and money clips, for example the MC KAIA - TAUPE for 69.90 EUR.",
+      "language": "en",
+      "category": "product",
+      "latency_ms": 5377,
+      "sources": [
+        "product_catalog"
+      ]
+    },
+    {
+      "question": "What is the shipping cost to Austria?",
+      "answer": "## Shipping to Austria 🇦🇹\n\nThe shipping cost to Austria is **€9.90**.\n\nHowever, shipping is **free of charge** if your order value is **€49.90 or above**!\n\nDelivery to Austria typically takes **3–4 business days**.\n\n[Source: Versand & Zahlungsbedingungen]",
+      "contexts": [
+        "Nicht zustellbare Sendungen\n\nSollte die Ware durch fehlende/falsche Adressangaben des Kunden oder aber durch nicht Abholung des Paketes an die Makani GmbH zurückgeschickt, so wird eine Aufwandspauschale vom Käufer getragen. Diese beträgt für Deutschland 10€, Österreich 15€ und für die Schweiz 20€. Selbiges gilt für Sendungen deren Annahme verweigert wurde.\n\nZölle, Steuern & Einfuhrabgaben\n\nBei Lieferungen in Länder außerhalb der EU können zusätzliche Zölle, Steuern und Gebühren anfallen. Diese sind vom Kunden zu tragen und nicht im Kaufpreis enthalten. Der Verkäufer hat keinen Einfluss auf diese Gebühren.\n\nZahlungsarten",
+        ". Steuerbehörden. Die anfallenden Liefer- und Versandkosten sind nicht im Kaufpreis enthalten, sie sind über die Seite „Versandkosten“ aufrufbar, werden im Laufe des Bestellvorganges gesondert ausgewiesen und sind von Ihnen zusätzlich zu tragen.",
+        "Versand & Zahlungsbedingungen\n\nWir verschicken unsere Pakete immer versichert über unseren Versanddienstleister DHL. \n\nAlle Details zum Versand findest Du hier\n\nVersandkosten\n\nDeutschland: Versandkostenfrei\nÖsterreich: 9,90€ | Versandkostenfrei ab 49,90€\nSchweiz: 14,90€ \nEU: 14,90€ \n\nLieferzeiten\n\nWir versenden innerhalb von 24 Stunden.\nDie Lieferung innerhalb Deutschland erfolgt nach 2 – 3 Werktagen.\nBestellungen aus Österreich benötigen bis zu 3- 4 Werktage.\nLieferungen in andere EU Länder benötigen bis zu 5 Werktage.\nLieferungen in die Schweiz benötigen bis zu 4 - 5 Werktage.\n\nDu kannst Deine Bestellung innerhalb von 14 Tagen laut unseren (Widerrufsrecht) widerrufen ausgenommen Schweizer Kunden.\n\nNicht zustellbare Sendungen",
+        "Wir bieten Ihnen folgende Zahlungsarten an. Suchen Sie sich einfach die für Sie optimale Zahlart aus. Die Versandkosten sind teilweise abhängig von der gewählten Zahlungsart. Die in den jeweiligen Angeboten angeführten Preise stellen Endpreise dar. Sie beinhalten alle Preisbestandteile einschließlich etwaig anfallender Steuern wie Mehrwertsteuer. Nur bei grenzüberschreitender Lieferung können im Einzelfall weitere Steuern (z.B. im Falle eines innergemeinschaftlichen Erwerbs) und/oder Abgaben (z.B. Zölle) von Ihnen zu zahlen sein, jedoch nicht an den Verkäufer, sondern an die dort zuständigen Zoll- bzw. Steuerbehörden"
+      ],
+      "ground_truth": "Shipping to Austria costs 9.90 EUR and is free for orders over 49.90 EUR.",
+      "language": "en",
+      "category": "shipping",
+      "latency_ms": 3085,
+      "sources": [
+        "shipping_policy"
+      ]
+    },
+    {
+      "question": "How will I be refunded after a return?",
+      "answer": "## Refund After a Return\n\nAfter we receive your return (or proof of shipment), we will refund all payments **within 14 days**. The refund will be made using the **same payment method** you used for the original purchase — no additional fees will be charged.\n\nPlease note that we may withhold the refund until we have received the goods back or you have provided proof of return shipment.\n\n[Source: Retoure / Return Policy]",
+      "contexts": [
+        "Folgen des Widerrufs\n\nWenn Sie diesen Vertrag widerrufen, haben wir Ihnen alle Zahlungen, die wir von Ihnen erhalten haben, unverzüglich und spätestens binnen vierzehn Tagen ab dem Tag zurückzuzahlen, an dem die Mitteilung über Ihren Widerruf dieses Vertrags bei uns eingegangen ist. Für diese Rückzahlung verwenden wir dasselbe Zahlungsmittel, das Sie bei der ursprünglichen Transaktion eingesetzt haben, es sei denn, mit Ihnen wurde ausdrücklich etwas anderes vereinbart; in keinem Fall werden Ihnen wegen dieser Rückzahlung Entgelte berechnet. Wir können die Rückzahlung verweigern, bis wir die Waren wieder zurückerhalten haben oder bis Sie den Nachweis erbracht haben, dass Sie die Waren zurückgesandt haben, je nachdem, welches der frühere Zeitpunkt ist.",
+        "Sie haben die Waren unverzüglich und in jedem Fall spätestens binnen vierzehn Tagen ab dem Tag, an dem Sie uns über den Widerruf dieses Vertrags unterrichten, an uns zurückzusenden oder zu übergeben. Die Frist ist gewahrt, wenn Sie die Waren vor Ablauf der Frist von vierzehn Tagen absenden. Sie tragen die unmittelbaren Kosten der Rücksendung der Waren. Sie müssen für einen etwaigen Wertverlust der Waren nur aufkommen, wenn dieser Wertverlust auf einen zur Prüfung der Beschaffenheit, Eigenschaften und Funktionsweise der Waren nicht notwendigen Umgang mit ihnen zurückzuführen ist.\n\nAn:\n\nVDS Fulfillment\nc/o MAKANI\nSiemensstraße 14\nHerzberg am Harz\nDE 37412\n\nE-Mail: info@makani-germany.de"
+      ],
+      "ground_truth": "Makani will refund all payments within 14 days of receiving your withdrawal notice, using the same payment method you used for the original transaction. No fees are charged for the refund.",
+      "language": "en",
+      "category": "returns",
+      "latency_ms": 3684,
+      "sources": [
+        "returns_policy"
+      ]
+    }
+  ]
+}

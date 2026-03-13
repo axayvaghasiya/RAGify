@@ -1,0 +1,12 @@
+.env
+data/raw/
+data/processed/
+__pycache__/
+*.pyc
+.DS_Store
+*.faiss
+*.pkl
+.ipynb_checkpoints/venv/
+.ipynb_checkpoints/
+venv/
+evaluation/rag_results_cache.json
