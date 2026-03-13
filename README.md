@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-🚀 **[Try RAGify AI](https://project-ragify.streamlit.app)** ← *(deploy link goes here)*
+🚀 **[Try RAGify AI](https://project-ragify.streamlit.app)**
 
 Ask questions like:
 - *"Welche schwarzen Handtaschen habt ihr unter 120 Euro?"*
@@ -27,8 +27,8 @@ Evaluated on 20 golden Q&A pairs (10 German + 10 English) using the RAGAS framew
 | Metric | Without Routing | With Query Routing | Improvement |
 |--------|----------------|-------------------|-------------|
 | **Faithfulness** | 0.90 | 0.88 | ≈ same |
-| **Answer Relevancy** | 0.60 | **0.76** | +26% ✅ |
-| **Context Precision** | 0.50 | **0.68** | +36% ✅ |
+| **Answer Relevancy** | 0.60 | **0.76** | +26%    |
+| **Context Precision** | 0.50 | **0.68** | +36%   |
 
 > **Faithfulness 0.88** — the LLM stays grounded in retrieved context with minimal hallucination.  
 > Adding keyword-based query routing improved answer relevancy by 26% and context precision by 36% by directing queries to the correct source type before retrieval.
@@ -283,6 +283,8 @@ RAGify: Der Versand nach Österreich ist kostenlos. [Quelle: Website]
 ## About
 
 Built by **Akshay Vaghasiya** — Senior Shopify Engineer transitioning to AI Engineering.
+
+@ 2026 Akshay Vaghasiya. All rights reserved.
 
 This project demonstrates end-to-end RAG system design with production-grade retrieval, quantitative evaluation, and real merchant data — not a toy dataset.
 
