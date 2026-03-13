@@ -18,8 +18,7 @@ sentence-transformers==3.3.1
 rank-bm25==0.2.2
 
 # Reranking
-# torch==2.9.0
-torch==2.5.1
+torch==2.9.0
 
 # API
 fastapi==0.115.6
