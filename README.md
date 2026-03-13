@@ -9,7 +9,7 @@
 
 ---
 
-## Live Demo
+<!-- ## Live Demo
 
 🚀 **[Try RAGify AI](https://project-ragify.streamlit.app)**
 
@@ -18,7 +18,7 @@ Ask questions like:
 - *"What is your return policy?"*
 - *"Wie lange dauert der Versand nach Österreich?"*
 
----
+--- -->
 
 ## RAGAS Evaluation Results
 
