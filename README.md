@@ -33,9 +33,6 @@ Ask questions like:
 
 --- -->
 
-## Demo Video:
-**[Loom](https://www.loom.com/share/96d9f497f55941ddacec2d4d6de873f0)**
-
 ## RAGAS Evaluation Results
 
 Evaluated on 20 golden Q&A pairs (10 German + 10 English) using the RAGAS framework.
