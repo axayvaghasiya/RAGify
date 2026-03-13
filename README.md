@@ -1,4 +1,4 @@
-# RAGify – Enterprise Retrieval-Augmented Generation (RAG) System (For E-Commerce)
+# RAGify – Enterprise Retrieval-Augmented Generation (RAG) System
 
 🎥 **Demo Video:** https://www.loom.com/share/96d9f497f55941ddacec2d4d6de873f0
 
