@@ -297,8 +297,6 @@ RAGify: Der Versand nach Österreich ist kostenlos. [Quelle: Website]
 
 Built by **Akshay Vaghasiya** — Senior Shopify Engineer transitioning to AI Engineering.
 
-@ 2026 Akshay Vaghasiya. All rights reserved.
-
 This project demonstrates end-to-end RAG system design with production-grade retrieval, quantitative evaluation, and real merchant data — not a toy dataset.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/akshayvaghasiya)
